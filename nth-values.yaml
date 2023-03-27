@@ -1,0 +1,8 @@
+enableSqsTerminationDraining: true
+queueURL: "https://sqs.us-east-1.amazonaws.com/591202449198/k8s-sqs"
+awsRegion: "us-east-1"
+serviceAccount:
+  create: false
+  name: aws-node-termination-handler
+checkASGTagBeforeDraining: false # <-- set to false as instances do not belong to any ASG
+enableSpotInterruptionDraining: true

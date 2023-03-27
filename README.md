@@ -1,0 +1,1 @@
+## Instrcution exaplained in Notion(Bakai Devops Arhitecture K8S)
